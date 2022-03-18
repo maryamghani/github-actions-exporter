@@ -1,0 +1,16 @@
+apiVersion: v1
+entries:
+  github-actions-exporter:
+  - apiVersion: v2
+    appVersion: 1.8.1
+    created: "2022-03-18T19:34:29.108456969Z"
+    description: github-actions exporter for prometheus
+    digest: 74d7a9b45de21d8e726a4d7f7f4236a0b14da40f0a9fb91c2ff4c831c21fc18c
+    name: github-actions-exporter
+    sources:
+    - https://github.com/helm/charts-repo-actions-demo
+    type: application
+    urls:
+    - https://github.com/maryamghani/github-actions-exporter/releases/download/github-actions-exporter-0.1.5/github-actions-exporter-0.1.5.tgz
+    version: 0.1.5
+generated: "2022-03-18T19:34:29.108709073Z"
