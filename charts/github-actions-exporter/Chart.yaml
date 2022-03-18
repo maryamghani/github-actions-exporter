@@ -4,6 +4,5 @@ description: github-actions exporter for prometheus
 type: application
 appVersion: 1.8.1
 sources:
-  - https://github.com/helm/charts-repo-actions-demo
+  - https://github.com/maryamghani/github-actions-exporter
 version: 0.1.5
-
