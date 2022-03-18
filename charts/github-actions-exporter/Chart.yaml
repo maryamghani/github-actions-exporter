@@ -3,6 +3,9 @@ name: github-actions-exporter
 description: github-actions exporter for prometheus
 type: application
 
+sources:
+  - https://github.com/maryamghani/github-actions-exporter
+
 # This is the chart version. This version number should be incremented each time you make changes
 # to the chart and its templates, including the app version.
 # Versions are expected to follow Semantic Versioning (https://semver.org/)
