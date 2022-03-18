@@ -9,10 +9,14 @@ nameOverride: ""
 fullnameOverride: ""
 
 env:
-  GITHUB_REFRESH: 30 # Refresh time Github Actions status in sec
-  GITHUB_ORGAS: "" # List all organisations you want get informations. <orga>,<orgb>,<orgc>
-  GITHUB_REPOS: "" # List all repositories you want get informations. <orga>/<repo>,<orga>/<repo2>,<orga>/<repo3> (like test/test)
-  PORT: 9999 # Exporter port
+  # Refresh time Github Actions status in sec
+  GITHUB_REFRESH: 30
+  # List all organisations you want get informations. <orga>,<orgb>,<orgc>
+  GITHUB_ORGAS: ""
+  # List all repositories you want get informations. <orga>/<repo>,<orga>/<repo2>,<orga>/<repo3> (like test/test)
+  GITHUB_REPOS: ""
+  # Exporter port
+  PORT: 9999
   GITHUB_API_URL: api.github.com
 #  ENTERPRISE_NAME: "" # Needed for enterprise endpoints (/enterprises/{ENTERPRISE_NAME}/*)
 #  EXPORT_FIELDS: "repo,id,node_id,head_branch,head_sha,run_number,workflow_id,workflow,event,status"  # A comma separated list of fields for workflow metrics that should be exported
